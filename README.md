@@ -1,4 +1,4 @@
-# Entrevista Qüilo Part Time
+# Entrevista Qüilo
 ## Algoritmo árbol genealógico 🌳
 
 Actualmente una empresa necesita el desarrollo para poder hayar los descendientes de cierto nivel para una determinada persona en un árbol genealógico y lo han contratado a usted como freelancer para poder desarrollar dicho programa.
