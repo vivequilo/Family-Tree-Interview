@@ -3,7 +3,7 @@
 
 Actualmente una empresa necesita el desarrollo para poder hayar los descendientes de cierto nivel para una determinada persona en un árbol genealógico y lo han contratado a usted como freelancer para poder desarrollar dicho programa.
 
-Le indican que tome en cuenta el hecho de que *cada integrante del árbol podra tener únicamente dos hijos como máximo*.
+Le indican que tome en cuenta el hecho de que *cada integrante del árbol podrá tener únicamente dos hijos como máximo*.
 
 ## Instrucciones
 
