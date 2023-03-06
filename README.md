@@ -41,13 +41,13 @@ Función `getTree`
 ``` js
 let getTree = (list) => {
     let nodes = {}
-    let childs = []
+    let children = []
     let root = undefined
     list.forEach((json) => {
         let node = new Node(json)
         nodes[`${json.id}`] = node
-        if(json.parent && !childs.includes(json.id)){
-            childs.push(json.id)
+        if(json.parent && !children.includes(json.id)){
+            children.push(json.id)
         }
         if(!json.parentId){
             root = node
