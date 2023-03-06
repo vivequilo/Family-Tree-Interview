@@ -14,7 +14,7 @@ Se le otorgara un input de un array de objetos el cual se deberá de transformar
 Una vez con el árbol generado se le pedira que encuentre cualquier persona unicamente con su id.
 Ej:
 ``` js
-//id = 4
+//id = 5
 let findById = (id, tree) => tree.search(id) // Node(id: 5, name: "Soy le nodo con id 5")
 ```
 
@@ -41,14 +41,10 @@ Función `getTree`
 ``` js
 let getTree = (list) => {
     let nodes = {}
-    let children = []
     let root = undefined
     list.forEach((json) => {
         let node = new Node(json)
         nodes[`${json.id}`] = node
-        if(json.parent && !children.includes(json.id)){
-            children.push(json.id)
-        }
         if(!json.parentId){
             root = node
         }
