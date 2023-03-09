@@ -75,12 +75,6 @@ fun main(args: Array<String>) : Unit {
         Node(15,"Javier", 11),
     )
 
-    val root = getTree(treeJson)
+        
 
-    if(root == null){
-        print("No se logro resolver el root")
-        return
-    }
-    
-    
 }
