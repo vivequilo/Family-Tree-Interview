@@ -46,14 +46,12 @@ class Node
 
 let getTree = (list) => {
     let nodes = {}
-    let childs = []
+    
     let root = undefined
     list.forEach((json) => {
         let node = new Node(json)
         nodes[`${json.id}`] = node
-        if(json.parent && !childs.includes(json.id)){
-            childs.push(json.id)
-        }
+        
         if(!json.parentId){
             root = node
         }
