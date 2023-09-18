@@ -49,9 +49,11 @@ let getTree = (list) => {
     
     let root = undefined
     list.forEach((json) => {
+        //Create the node from each one of the elements
         let node = new Node(json)
+        //Map it into the json
         nodes[`${json.id}`] = node
-        
+        //If no parent means the root
         if(!json.parentId){
             root = node
         }
@@ -60,6 +62,7 @@ let getTree = (list) => {
     Object.keys(nodes).map((id) => {
         let node = nodes[id]
         if(node.parentId){
+            //Assign the relations
             nodes[`${node.parentId}`].setNode(node)
         }
     })
