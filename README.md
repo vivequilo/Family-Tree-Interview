@@ -47,7 +47,7 @@ const getTree = (list) => {
     let root = undefined
     //Iterate in the list of json elements
     list.forEach((json) => {
-        Create a new instance of the Node class from the json
+        //Create a new instance of the Node class from the json
         let node = new Node(json)
         //We will map it using the id
         nodes[`${json.id}`] = node
