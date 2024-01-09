@@ -1,7 +1,7 @@
 # Entrevista Qüilo
 ## Algoritmo árbol genealógico 🌳
 
-Actualmente una empresa necesita el desarrollo para poder hayar los descendientes de cierto nivel para una determinada persona en un árbol genealógico y lo han contratado a usted como freelancer para poder desarrollar dicho programa.
+Actualmente una empresa necesita el desarrollo para poder encontrar los descendientes de cierto nivel para una determinada persona en un árbol genealógico y lo han contratado a usted como freelancer para poder desarrollar dicho programa.
 
 Le indican que tome en cuenta el hecho de que *cada integrante del árbol podrá tener únicamente dos hijos como máximo*.
 
