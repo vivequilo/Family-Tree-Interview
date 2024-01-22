@@ -140,9 +140,18 @@ let treeJson = [
 
 Con el siguiente input al decidir jalar los descendientes en el segundo nivel del nodo con id `7`
 se espera la siguiente lista como resultado:
+
+```js
+const tree = getTree(treeJson)
+const nodeSeven = tree.search(7)
+
+// Node(id: 7, name: "Augusto")
+```
+
 ``` js
-[
-Node(id: 14, name: "Julia"),
-Node(id: 15, name: "Javier"),
-]
+const grandchildrenOfNodeSeven = nodeSeven.getDescendantsInLevel(2)
+//[
+//Node(id: 14, name: "Julia"),
+//Node(id: 15, name: "Javier"),
+//]
 ```
