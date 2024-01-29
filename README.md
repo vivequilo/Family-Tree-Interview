@@ -15,14 +15,14 @@ Una vez con el árbol generado se le pedira que encuentre cualquier persona unic
 Ej:
 ``` js
 //id = 5
-let findById = (id, tree) => tree.search(id) // Node(id: 5, name: "Soy le nodo con id 5")
+tree.search(id) //id=5, Node(id: 5, name: "Soy le nodo con id 5")
 ```
 
 Luego se le pide que proceda a encontrar los descendientes en cualquier nivel para determinado nodo dentro de una lista e imprimir un detalle de la misma.
 Ej:
 ``` javascript
 //level = 2
-let findDescendants = (level,  tree) => tree.getDescendantsInLevel(level) //[Node(id: 1, name: "Nieto 1"), Node(id: 10, name: "Nieto 2")....]
+tree.getDescendantsInLevel(level) //level=2, [Node(id: 1, name: "Nieto 1"), Node(id: 10, name: "Nieto 2")....]
 
 //Lógica para imprimir el resultado
 ....
